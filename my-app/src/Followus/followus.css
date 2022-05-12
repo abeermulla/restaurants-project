@@ -1,0 +1,16 @@
+.socialicons{
+    display: inline-flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 2.2rem;
+    margin-bottom: -10px;
+}
+.socialicons a{
+    color:rgba(0, 0, 0, 0.863);
+}
+
+h3{
+    color:  rgba(0, 0, 0, 0.863);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+}

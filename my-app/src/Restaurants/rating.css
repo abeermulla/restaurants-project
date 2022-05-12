@@ -1,0 +1,15 @@
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 2.1rem;
+  }
+  .on {
+    color: rgb(216, 216, 0);
+  }
+  .off {
+    color: #ccc;
+  }
+
+  

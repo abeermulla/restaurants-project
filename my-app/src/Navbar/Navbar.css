@@ -1,0 +1,63 @@
+  .Navbar .pagesItemsUl{
+    display: flex;
+    justify-content: right;
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.863);
+  }
+  
+  .Navbar .pagesItemsUl li{
+   list-style: none;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin: 10px;
+   padding-left: 30px;
+   
+  }
+  
+  .Navbar .pagesItemsUl li a{
+    text-decoration: none;
+    padding-right: 10px;
+    color: aliceblue;
+  }
+  .Navbar .pagesItemsUl li a:hover{
+    color: gray;
+    text-decoration: underline;
+  }
+
+  .Navbar .pagesItemsUl li:not(:last-child){
+    border-right: solid 2px aliceblue;
+  }
+  .homeicon,.coffeeshopicon,.restaurantsicon{
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    margin-top: 5%;
+  }
+
+  .bakeryicon{
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    margin-top: 8%;
+
+  }
+  .conditoriaicon{
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    margin-top: 3%;
+
+  }
+  .loginicon{
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    margin-top: 6%;
+  }
+
+  .profileicon{
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    margin-top: 9%;
+    font-size: 1.8rem;
+  }

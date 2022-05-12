@@ -1,0 +1,61 @@
+  .Footer .footeritemsUl{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color:  rgba(0, 0, 0, 0.863);
+  }
+  .Footer .footeritemsUl li{
+    list-style: none;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin: 10px;
+   padding-left: 20px;
+   
+  }
+  .Footer .footeritemsUl li a{
+    text-decoration: none;
+    padding-right: 50px;
+    color: aliceblue;
+  }
+  
+  .Footer .footeritemsUl li a:hover{
+    color: gray;
+    text-decoration: underline;
+    
+  }
+  
+  .deliveryicon{
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    margin-top: 4.5%;
+    font-size: 1.7rem;
+  }
+  .contactusicon{
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    margin-top: 4%;
+  }
+  .followusicon{
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    margin-top: 4%;
+    font-size: 1.4rem;
+
+  }
+  .aboutusicon{
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    margin-top: 7%;
+    font-size: 1.2rem;
+  }
+  .advertisingicon{
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    margin-top: 6px;
+    font-size: 1.5rem;
+  }

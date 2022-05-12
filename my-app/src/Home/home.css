@@ -1,0 +1,207 @@
+.Home{
+  height: 360vh;
+  margin-top: -62px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://media.istockphoto.com/photos/space-of-desk-over-blur-cafe-background-picture-id538477232?k=20&m=538477232&s=170667a&w=0&h=M_x_pRApOuB-PAK9wRjfA4lmCvdTcegHtTQB4Rs65KQ=");
+  background-image: url(https://media.istockphoto.com/photos/wood-table-top-on-blur-window-glasswall-background-picture-id1129572627?k=20&m=1129572627&s=612x612&w=0&h=Z1fnJQgoiB1bJ5z1MUbiOQPckT7QPAdVQ6nN2guf6_k=);
+  background-image: url(http://adwallpapers.xyz/uploads/posts/870-empty-table-over-blur-abstract-background-product-display.jpg);
+  background-image: url(https://media.istockphoto.com/photos/wood-table-top-on-blur-kitchen-window-background-picture-id1092392704?k=20&m=1092392704&s=170667a&w=0&h=nS8mCje56BUB4pl8t7aBjtZPsIp8aC0y67Xkm-b0_QM=);
+}
+.ourspecialdishes{
+  text-align: center;
+  /* font-family: 'Courier New', Courier, monospace; */
+  background-color: rgba(0, 0, 0, 0.201);
+  width: 700px;
+  margin-left: 29%;
+  font-size: 2.5rem;
+  margin-top: 13%;
+  line-height: 3rem;
+  text-shadow: 1px 2px rgb(187, 187, 164);
+ 
+}
+.druzefood{
+  height: 250px;
+  margin: 40px;
+  margin-top: 65px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px 5px rgba(0, 0, 0, 0.863);
+}
+
+.druzefood:hover{
+  transform: scale(1.06);
+  
+}
+
+.header1{ 
+    color:  rgba(0, 0, 0, 0.863);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.57rem;
+    text-shadow: 3px 3px rgb(187, 187, 164);
+    transform: translate(0px,60px);
+    
+}
+.header2{
+  margin-top: -2%;
+  text-align: center;
+  font-size: 2.6rem;
+}
+.sentencefood{
+  font-size: 2.2rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.201);
+  width: 1000px;
+  margin-left: 17%;
+  margin-bottom: -10px;
+  margin-top: 13.7%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header3{
+  font-size: 2.5rem;
+  animation: mover 3s linear infinite;
+  text-align: center;
+  color:  rgba(0, 0, 0, 0.863);
+}
+.header4{
+  background-color: rgba(0, 0, 0, 0.201);
+  width: 1100px;
+  text-align: center;
+  margin-left: 12%;
+  font-size: 2.1rem;
+  margin-bottom: 10px;
+
+}
+@keyframes mover{
+  50%{
+    transform: translateY(40px);
+  }
+}
+.project-logo{
+  border-radius:700px;
+  width: 300px;
+  height: 300px;
+  display: inline;
+  float: left;
+  margin-top: 0%;
+
+}
+.homeimages .allallhomeimages{
+  width: 310px;
+  box-shadow: 0px 1px 10px 5px rgba(0, 0, 0, 0.863);
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.homeimages{
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -webkit-column-width: 50%;
+  -moz-column-width: 50%;
+  column-width: 50%;
+  margin: 10px;
+  margin-top: 4%; 
+  /* the first 3 commands defines the number of the images that we want to put in the colmun and the commands in lines 44,45,46 defines the width of each image in the gallery*/
+}
+.yarkaimginfo{
+  width: 90%;
+  margin-top: 12%;
+  margin-left: 6%;
+  
+}
+.foodimgs{
+  width: 560px;
+  height: 450px;
+  float: right;
+  margin-top: -502px;
+  box-shadow: 0px 1px 10px 5px rgba(0, 0, 0, 0.204);
+  border-radius: 0px 10px 10px 0px;
+}
+.yarkainfo{
+  font-size: 1.4rem;
+  text-shadow: none;
+  /* width: 830px; */
+  height: 410px;
+  padding: 20px;
+  line-height: 3.9rem;
+  /* background-color: rgba(0, 0, 0, 0.103); */
+  box-shadow: 0px 1px 10px 5px rgba(0, 0, 0, 0.205);
+  width: 770px;
+  border-radius: 10px 0px 0px 10px;
+  
+}
+.allhomeimages{
+  display: flex;
+  justify-content: center;
+}
+ .homeimages .allallhomeimages:hover{
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+ } 
+ .followushome{
+   margin-top: 10%;
+   /* transform: translateY(-35px); */
+
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* .search{
+    text-align: right;
+    color: rgb(126, 11, 11);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    width: 200px;
+    height: 40px;
+    margin-top: -170px;
+    
+  
+  } */

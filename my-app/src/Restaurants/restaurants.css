@@ -1,0 +1,225 @@
+.allrestaurantscards{
+    min-height: 100vh;
+  }
+.card{
+    display: flex; 
+    justify-content: center;
+    margin: 50px;
+    width: 320px;
+    min-height: 400px;
+    box-shadow: 0px 1px 10px 5px rgba(0, 0, 0, 0.863);
+    border-radius: 10px; 
+}
+
+.allthecards{
+    margin-top: 1%;
+    display: inline-flex; 
+    justify-content: center;
+}
+
+.card ul{
+    list-style: none;
+    margin: 15px;
+    margin-right: 15%;
+}
+
+.card ul li{
+    color: rgba(0, 0, 0, 0.863);
+    margin: 15px; 
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card:hover{
+    transform: scale(1.06);
+}
+
+.gallerycard{
+    border-radius: 10px 10px 0px 0px;
+    width: 320px;
+    height: 230px;
+    margin-top: -9.8%;
+    margin-left: -2.2%;
+} 
+
+.btnpopup, .btnorders, .commentsbutton{
+    margin: 15px;
+    width: 220px;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.863);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 3px solid rgba(0, 0, 0, 0.863);
+    transition-duration: 0.4s;
+}
+
+.modalcontentrestaurant, .modalcontentcoffeeshop, .modalcontentconditoria, .modalcontentbakery{
+  padding: 10px;
+  width: 300px;
+  position: relative;
+  background-image: url("https://wallpapers.com/images/high/sweet-food-cupcakes-viivelvabn8tufnv.jpg");
+  background-size: cover;
+  background-position: 57%;
+  height: 500px;
+  overflow: auto;
+  display: block;
+  
+}
+
+.modalcontentbakery{
+  background-image: url("https://thumbs.dreamstime.com/b/loaves-different-breads-grey-background-space-text-loaves-different-breads-grey-background-flat-lay-space-text-158499670.jpg");
+  background-position: 40%;
+  
+}
+.modalcontentconditoria{
+  background-position: 90%;
+  background-image: url("https://cdn.shopify.com/s/files/1/0565/9757/7916/products/BlueberryCheesecake_25731_1280x.jpg?v=1632957917");
+}
+
+.modalcontentrestaurant{
+  background-position: 50%;
+  background-image: url("https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8OXx8fGVufDB8fHx8&w=1000&q=80");
+}
+
+.modalcontentcoffeeshop{
+  background-position: 35%;
+  background-image: url("https://media.istockphoto.com/photos/coffee-juice-and-croissants-breakfast-picture-id1139877562?k=20&m=1139877562&s=612x612&w=0&h=CFGzHwytdeacAVIsc2a8_Yarrsn3g-eGx84sNRZTg60=");
+}
+.popup .close{
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.863);
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: right;
+}
+.popup .modalcontent{
+   
+  }
+.popupform .close{
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.863);
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: right;
+  }
+  .popupform .ordersform{
+    margin-left: 60px;
+  }
+
+.ordersform {
+  display: block;
+  margin-top: 10px;
+  margin-right: 67px;
+  padding: 20px; 
+  background-image: url("https://t4.ftcdn.net/jpg/04/26/38/55/360_F_426385517_7kuOYd51I44TtDPE6RJ7lTDomzbbhzsf.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow: auto;
+  position: relative;
+  height: auto;
+  width: 280px;
+  border-radius: 0px;
+}
+.ordersinput{
+  width: 200px;
+  display: block;
+  margin-left: 25px;
+}
+.orderslbl{
+  display: block;
+  justify-content:center;
+  line-height: 3rem;
+} 
+
+.submitorder{
+    text-align: center;
+    width: 45%;
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 0.863);
+    font-weight: bold;
+    font-size: 1.1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 40px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    border: solid rgba(0, 0, 0, 0.863) ;
+}
+.submitorder:hover{
+  background-color: rgba(0, 0, 0, 0.863);
+  color: aliceblue;
+}
+
+.submitcomment{
+  display: block;
+  margin-top: 15px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: solid rgba(0, 0, 0, 0.863) ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 35px;
+  width: 70px;
+  border-radius: 5px;
+  margin-left: 130px;
+}
+.submitcomment:hover{
+  background-color: rgba(0, 0, 0, 0.863);
+  color: aliceblue;
+}
+
+.commentsbutton{
+  width: 150px;
+}
+.commentsbutton:hover{
+  background-color: rgba(0, 0, 0, 0.863);
+  color: aliceblue;
+}
+
+.commenttextarea{
+background: rgba(104, 104, 104, 0.089);
+color: rgba(0, 0, 0, 0.863);
+}
+
+.commentcontent{
+  font-size: 1.1rem;
+}
+
+.usernamecomment{
+  font-size: 1rem;
+  display: flex;
+  justify-content: right;
+  background-color:  rgba(0, 0, 0, 0.147);
+}
+
+#numberofcustomers, #customertel, #fullcustomername, #orderdate, #ordertime{
+    width: 200px;
+}
+
+.locationicon{
+    color: rgba(0, 0, 0, 0.863);
+    font-size: 2.5rem;
+}
+.instaicon , .faceicon{
+    color: rgba(0, 0, 0, 0.863);
+    font-size: 2rem;
+}
+.btnpopup:hover{
+    background-color: rgba(0, 0, 0, 0.863);
+    color:  aliceblue;
+}
+.btnorders:hover{
+  background-color: rgba(0, 0, 0, 0.863);
+  color:  aliceblue;
+}
+
+
+
+
+
+
